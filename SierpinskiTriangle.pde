@@ -15,6 +15,8 @@ public void mouseDragged()//optional
 public void sierpinski(int x, int y, int len) 
 {
   if(len<100)
+  stroke(185,185,185);
+  fill(10,10,10,10)
   triangle(x,y,x+len,y,x+len/2,y-len);
   else {
   sierpinkski(x,y,len/2);
