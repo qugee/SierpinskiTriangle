@@ -1,11 +1,12 @@
+Triangle bob = new Triangle();
 public void setup()
 {
   size(400,400);
-  sierpinski(20,380,360);
 }
 public void draw()
 {
- 
+ background(255);
+ bob.sierpinski(20,380,360);
 }
 public void mouseDragged()//optional
 {
