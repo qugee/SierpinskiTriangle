@@ -1,4 +1,3 @@
-Triangle bob = new Triangle();
 public void setup()
 {
   size(400,400);
@@ -7,7 +6,7 @@ public void setup()
 public void draw()
 {
  background(0);
- bob.sierpinski(20,380,360);
+ sierpinski(20,380,360);
 }
 public void mouseDragged()//optional
 {
