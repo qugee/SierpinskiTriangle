@@ -2,10 +2,11 @@ Triangle bob = new Triangle();
 public void setup()
 {
   size(400,400);
+  background(0);
 }
 public void draw()
 {
- background(255);
+ background(0);
  bob.sierpinski(20,380,360);
 }
 public void mouseDragged()//optional
@@ -15,8 +16,6 @@ public void mouseDragged()//optional
 public void sierpinski(int x, int y, int len) 
 {
   if(len<100)
-  stroke(185,185,185);
-  fill(100,0,100)
   triangle(x,y,x+len,y,x+len/2,y-len);
   else {
   sierpinkski(x,y,len/2);
