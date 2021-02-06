@@ -1,7 +1,7 @@
 public void setup()
 {
   size(400,400);
-  background(0,0,128);
+  background(0);
   stroke(0,255,0);
 }
 public void draw()
